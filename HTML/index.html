@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Yellowtail:400' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+                            /* neon style */
+
+                            .neonText {
+                    color: #fff;
+                    text-shadow:
+                        0 0 7px #fff,
+                        0 0 10px #fff,
+                        0 0 21px #fff,
+                        0 0 42px #5271ff,
+                        0 0 82px #5271ff,
+                        0 0 92px #5271ff,
+                        0 0 102px #5271ff,
+                        0 0 151px #5271ff;
+                    }
+
+                    .input, select, optgroup {
+                    border-radius: 10px;
+                    width: 50mm;
+                    animation: pulsate 1.5s infinite alternate;  
+                    border-color: #6ef5ff;
+                    padding: 0.4em;
+                    box-shadow: 0 0 .2rem #fff,
+                                0 0 .2rem #fff,
+                                0 0 2rem #5271ff,
+                                0 0 0.8rem #5271ff,
+                                0 0 2.8rem #5271ff,
+                                inset 0 0 1.3rem #5271ff; 
+                    }
+
+                    .button{
+                    width: 50mm;
+                    position: absolute;
+                    animation: pulsate 1.5s infinite alternate;  
+                    border-color: #6ef5ff;
+                    padding: 0.4em;
+                    box-shadow: 0 0 .2rem #fff,
+                                0 0 .2rem #fff,
+                                0 0 2rem #5271ff,
+                                0 0 0.8rem #5271ff,
+                                0 0 2.8rem #5271ff,
+                                inset 0 0 1.3rem #5271ff; 
+                    }
+
+                    h1 {
+                    font-family: "Yellowtail", sans-serif;
+                    text-decoration-line: underline;
+                    font-weight: 400;
+                    font-size: 18px;
+                    font-size: 3.2rem;
+                    /* color: #6ef0d0; */
+                    color: #fff;
+                    animation: flicker 1.5s infinite alternate;
+                    display: flex;
+                    justify-content: center;  
+                    }
+
+                    /* Flickering animation */
+                    @keyframes flicker {
+                        
+                    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+                        text-shadow:
+                        0 0 4px #5271ff,
+                        0 0 11px #5271ff,
+                        0 0 19px #5271ff,
+                        0 0 40px #5271ff,
+                        0 0 80px #5271ff,
+                        0 0 90px #5271ff,
+                        0 0 100px #5271ff,
+                        0 0 150px #5271ff;
+                    
+                    }
+                    
+                    20%, 24%, 55% {        
+                        text-shadow: none;
+                    }    
+                    }
+        
+                    label{
+                        text-transform: capitalize;
+                        font-family:  "Yellowtail", sans-serif;
+                    }
+
+        /* 
+        body>h1{
+            color: green;
+        }
+        */
+        /* child combinator */
+        /* div h1{
+            color: white;
+        } */
+        button{
+            background-color: #1e90ff;
+            border: none;
+            transition-duration: 0.5s;
+        }
+
+        button:hover{
+            background-color: royalblue;
+            transform: scale(0.5);
+            transform-style: preserve-3d;
+        }
+        @keyframes animation{
+            20%{transform: scale(1.1)}
+            40%{transform: scale(0..9)}
+            80%{transform: scale(1)}
+        }
+
+        body{
+            background-color: #27282c;
+        }
+        label{
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <p>Paragraph</p>
+    <p>Paragraph 2</p>
+    <p>mcdcdcdcvccjghdchgcc<wbr>vhdvvccccdvjcdjdv<wbr>bjcccccccbjbcjdbjcj<wbr>nbccccnncb</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <ul>
+            <li>three</li>
+            <li>two</li>
+        </ul>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>user</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <td rowspan="2">2</td>
+                <td>mac</td>
+                <td>no</td>
+            </tr>
+        </thead>
+    </table>
+    <img src="image/landscape.jpg" height="500" alt="">
+    <br>
+    <br>
+    <button>macs</button>
+    <br><br> -->
+
+    <!-- <div>
+        <h1>mac</h1>
+        <h2>lol</h2>
+    </div> -->
+
+    <h1 >Login</h1>
+    <br>
+    <form enctype="multipart/form-data">
+        <label for="name">Username</label>
+        <input class="input" type="name" name="name" id="name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input class="input"  type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="password">password</label>
+        <input class="input"  type="password" name="password" id="password">
+        <br>
+        <br>
+        <label for="password">Confirm password</label>
+        <input class="input"  type="password" name="confirmpassword" id="confirmpassword">
+        <br>
+        <br>
+        <!-- <input type="range" name="rangeS" id="range" min="0" max="10" step="5">
+        <input type="color" name="color" id="color">
+        <input type="url" name="url" id="url">
+        <input type="hidden" name="hidden" id="hidden">
+        <input type="hidden" name="hidden" id="hidden"> -->
+        <label for="receiveAd">Receive Ads</label>
+        <select name="receiveAd" id="receiveAd">
+            <optgroup name="receiveAd" id="receiveAd">
+                <option value="Receive Ad">Receive Ad</option>
+                <option value="Do not receive ad">Do not receive ad</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="file">Update a profile photo</label>
+        <input class="input"  type="file" name="file" id="file">
+        <br>
+        <br>
+        <input type="submit" value="Save" class="button">
+    </form>
+</body>
+</html>

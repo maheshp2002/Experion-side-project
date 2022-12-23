@@ -1,0 +1,108 @@
+.button1{
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
+#main-nav>a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+#mobile-nav{
+    display: none;
+    }
+    
+#mobile-nav a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.h1{
+    margin-bottom: 50px;
+}
+.h2{
+    margin-top: 80px;
+}
+#main-nav>a:hover{
+    color: orange;
+    text-decoration: underline;
+    scale: 10px;
+}
+
+input{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    #main-nav a:hover{
+        color: orange;
+        text-decoration: underline;
+        scale: 10px;
+    }
+    header{
+        flex-direction: column;
+        align-items: initial;
+        }
+        .logo{
+        margin: 25px 0;
+        }
+        #mobile-nav{
+        padding-bottom: 10px;
+        }
+        #main-nav{
+            display: none;
+        }
+    
+        input{
+            display: block;
+        }
+        
+    /* #mobile-nav{ */
+    /* display: none; */
+    /* } */
+    
+    #mobile-nav a{
+    color: white;
+    text-decoration: none;
+    /* display: block; */
+    }
+}
+
+header{
+    height: 70px;
+    background-color: #2f2f2f;
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 8px 5px #989898;
+}
+
+/* input{
+    display: flex;
+    left: 100px;
+    margin: 50px;
+    flex-wrap: wrap;
+    padding: 25px;
+} */
+#main-nav{
+    margin-left: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+main{
+    height: 150vh;
+    background-color: aliceblue;
+    padding-top: 25px;
+}
+.span{
+    color:grey;
+}
