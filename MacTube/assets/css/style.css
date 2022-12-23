@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(55, 55, 55);
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-color: white;
+    width: 70px;
+    /* height: 1oopx; */
+    font-size: 30px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.letter{
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.font{
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.body-container{
+    flex-direction: column;
+}
+
+.template{
+    width: 280px;
+    height: 240px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 10px 20px 0px #1f1f1f;
+    border-radius: 20px;
+}
+
+.img{
+    border-radius: 20px 20px 0px 0px;
+    width: 280px;
+    height: 150px;
+}
+
+.header{
+    flex-direction: row;
+}
+
+.profile-img{
+    align-items: center;
+    margin:10px;
+}
+
+.under-template{
+    align-items: center;
+    border-radius: 20px;
+}
+
+.text{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    width: 280px;
+    height: 0px;
+    margin: 0px 0px 0px 0px ;
+    font-weight: bold;
+    justify-content: center;
+    margin: 10px 10px 0px 0px;
+    flex-direction: column;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.length{
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    right: 5px;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.img-container{
+    position: relative;
+}
+
+span{
+    margin-right: 10px;
+}
+
+#acc{
+    font-size: 12px;
+}
+.sub-text{
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    width: 200px;
+    margin: 5px 10px 0px 0px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.profile-img>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.search-bar{
+    width: 600px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(155, 155, 155);
+    border-color: rgb(155, 155, 155);
+    margin: auto;
+    border-style: solid;
+    border-width: .1px;
+    border-radius: 5px;
+}
+
+.magnifier{
+    margin-left: 50px;
+}
