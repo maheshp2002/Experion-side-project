@@ -5,21 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MacTube</title>
 </head>
 <body>
     <div class = "parent">
         <div class =  "header flex">
+            <div class="bars flex">
+                <button class="icons fa fa-bars" id="bars" onclick="displayNavbar()"></button>
+            </div>
             <div class = "title flex font">
                 <div class = "letter flex">Mac</div>
                 <div class = "logo flex">Tube</div>
             </div>
-            <div class = "search-bar  flex">
-                <div class ="flex">
-                    search
+            <div class="flex search" onclick="displayResult()">
+                <div class = "search-bar  flex">
+                    <!-- <div class ="flex"> -->
+                        <input type="text" class="flex" placeholder="search...">
+                        <!-- search -->
+                    <!-- </div> -->
+                    <div class="magnifier fa fa-search"></div>
                 </div>
-                <div class="magnifier fa fa-search"></div>
+                <div class="results flex" id="isResult">
+                    <div class="result-tile flex">
+                        <div class="material-icons result-icon">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                        </div>
+                        <div>
+                            varisu
+                        </div>
+                    </div>
+                    <div class="result-tile flex">
+                        <div class="material-icons result-icon">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                        </div>
+                        <div>
+                            justin biber
+                        </div>
+                    </div>  
+                    <div class="result-tile flex">
+                        <div class="material-icons result-icon">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                        </div>
+                        <div>
+                            pathan song
+                        </div>
+                    </div>  
+                    <div class="result-tile flex">
+                        <div class="material-icons result-icon">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                        </div>
+                        <div>
+                            Varisu
+                        </div>
+                    </div>  
+                    <div class="result-tile flex">
+                        <div class="material-icons result-icon">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                        </div>
+                        <div>
+                            weekend blinding lights
+                        </div>
+                    </div>                                        
+                </div>
+            </div>
+            <div class="icon flex">
+                <div class="icons material-icons">
+                    <span class="material-symbols-outlined">
+                        videocam
+                        </span>
+                </div>
+                <div class="notifications flex">
+                    <div class="icons fa fa-bell"></div>
+                    <div class="red-notifications flex">9+</div>
+                </div>
+            </div>
+
+            <div class="prof flex">
+                <img src="/assets/images/mac.jpg">
             </div>
         </div>
         <div class="body-container flex">
@@ -28,7 +102,7 @@
                     <div class="img-container">
                         <img src="/assets/images/blender.jpg" class="img">
                         <div class = "length">4:23</div>
-                        </div>
+                    </div>
                     <div class="under-template flex">
                         <div>
                             <div class="profile-img">
@@ -51,7 +125,7 @@
                     <div class="img-container">
                         <img src="/assets/images/mrPerfectTech.jpg" class="img">
                         <div class="length">18:08</div>
-                        </div>
+                    </div>
                     <div class="under-template flex">
                         <div>
                             <div class="profile-img">
@@ -72,13 +146,14 @@
                 </div>
                 <div class="template">
                     <div class="img-container">
-                    <img src="/assets/images/alanWalker.jpg" class="img">
-                    <div class="length">3:33</div>
+                        <img src="/assets/images/alanWalker.jpg" class="img">
+                        <div class="length">3:33</div>
+                        <div class="progress alan"></div>
                 </div>
-                    <div class="under-template flex">
-                        <div>
-                            <div class="profile-img">
-                                <img src="/assets/images/alanWalker1.jpg">
+                <div class="under-template flex">
+                    <div>
+                        <div class="profile-img">
+                            <img src="/assets/images/alanWalker1.jpg">
                             </div>
                         </div>
                         <div class="text flex">
@@ -120,9 +195,80 @@
             <div class="row flex">
                 <div class="template">
                     <div class="img-container">
+                        <img src="/assets/images/assassinscreed.jpg" class="img">
+                        <div class="length">4:05</div>
+                    </div>
+                    <div class="under-template flex">
+                        <div>
+                            <div class="profile-img">
+                                <img src="/assets/images/assassinscreed1.jpg">
+                            </div>
+                        </div>
+                        <div class="text flex">
+                            ASSASSIN'S CREED MIRAGE Official Cinematic Trailer (2023)..
+                            <div class="sub-text flex">
+                                <span id="acc">WildGamerSK</span>
+                            </div>
+                            <div class="sub-text flex">
+                                <span>2.6M Views</span>
+                                <span>3 month ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="img-container">
+                        <img src="/assets/images/lastSelfie.jpg" class="img">
+                        <div class="length">23:23</div>
+                        <div class="progress ai"></div>
+                    </div>
+                    <div class="under-template flex">
+                            <div>
+                                <div class="profile-img">
+                                    <img src="/assets/images/lastSelfie1.jpg">
+                                </div>
+                            </div>
+                        <div class="text flex">
+                            .End of An Artist's Career? A.I. Creates Art for You! - Complete..
+                            <div class="sub-text flex">
+                                <span id="acc">PiXimperfect</span>
+                            </div>
+                            <div class="sub-text flex">
+                                <span>5.7M Views</span>
+                                <span>4 months ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="img-container">
+                        <img src="/assets/images/shazam.jpg" class="img">
+                        <div class="length">3:33</div>
+                        <div class="progress shazam"></div>
+                    </div>
+                    <div class="under-template flex">
+                        <div>
+                            <div class="profile-img">
+                                <img src="/assets/images/shazam1.jpg">
+                            </div>
+                        </div>
+                        <div class="text flex">
+                            CHAI with Tech | New iPhone Bug, Microsoft Netflix | ( 202 )..
+                            <div class="sub-text flex">
+                                <span id="acc">CallMeShazzam VINES</span>
+                            </div>
+                            <div class="sub-text flex">
+                                <span>130K Views</span>
+                                <span>1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="template">
+                    <div class="img-container">
                         <img src="/assets/images/mrWhoseTheBoss.jpg" class="img">
                         <div class="length">4:23</div>
-                        </div>
+                    </div>
                     <div class="under-template flex">
                         <div>
                             <div class="profile-img">
@@ -130,89 +276,102 @@
                             </div>
                         </div>
                         <div class="text flex">
-                            Google Pixel 7 & 7 Pro Review - Ridiculous.
+                            Charge - Blender Open Movie
                             <div class="sub-text flex">
                                 <span id="acc">Mrwhosetheboss</span>
                             </div>
                             <div class="sub-text flex">
-                                <span>4.7M Views</span>
+                                <span>4.7M Views Views</span>
                                 <span>2 month ago</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="template">
-                    <div class="img-container">
-                        <img src="/assets/images/mrPerfectTech.jpg" class="img">
-                        <div class="length">18:08</div>
-                        </div>
-                    <div class="under-template flex">
-                        <div>
-                            <div class="profile-img">
-                                <img src="/assets/images/mrPerfectTech1.jpg">
-                            </div>
-                        </div>
-                        <div class="text flex">
-                            BIGGEST TECH COLLAB IN MALAYALAM 2022
-                            <div class="sub-text flex">
-                                <span id="acc">Mr Perfect Tech</span>
-                            </div>
-                            <div class="sub-text flex">
-                                <span>33k Views</span>
-                                <span>4 hours ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="template">
-                    <div class="img-container">
-                    <img src="/assets/images/alanWalker.jpg" class="img">
-                    <div class="length">3:33</div>
-                </div>
-                    <div class="under-template flex">
-                        <div>
-                            <div class="profile-img">
-                                <img src="/assets/images/alanWalker1.jpg">
-                            </div>
-                        </div>
-                        <div class="text flex">
-                            Alan Walker - Faded
-                            <div class="sub-text flex">
-                                <span id="acc">Alan Walker</span>
-                            </div>
-                            <div class="sub-text flex">
-                                <span>3.3B Views</span>
-                                <span>7 years ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="template">
-                    <div class="img-container">
-                        <img src="/assets/images/blender.jpg" class="img">
-                        <div class="length">4:23</div>
-                    </div>
-                    <div class="under-template flex">
-                        <div>
-                            <div class="profile-img">
-                                <img src="/assets/images/blender1.jpg">
-                            </div>
-                        </div>
-                        <div class="text flex">
-                            Charge - Blender Open Movie
-                            <div class="sub-text flex">
-                                <span id="acc">Blender Studio</span>
-                            </div>
-                            <div class="sub-text flex">
-                                <span>337k Views</span>
-                                <span>7 days ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
     </div>
+    <div class="navbar flex" id="isNav">
+        <button class="close fa fa-close" onclick="displayNavbar()">
+        </button>
+        <div class="tile flex">
+            <div class="fa fa-home">
+                Home
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="shorts">
+                <img src="/assets/images/shorts2.png" width="20px" height="20px">
+                Shorts
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="material-icons">
+                <span class="material-symbols-outlined">
+                    subscriptions
+                </span>
+            </div>
+            <div>
+                Subscription
+            </div>
+        </div>
+
+        <hr style="width: 270px;">
+
+        <div class="tile flex">
+            <div class="material-icons">
+                <span class="material-symbols-outlined">
+                    video_library
+                </span>
+            </div>
+            <div>
+                Library
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="material-icons">
+                <span class="material-symbols-outlined">
+                    history
+                </span>
+            </div>
+            <div>
+                History
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="material-icons">
+                <span class="material-symbols-outlined">
+                    smart_display
+                </span>
+            </div>
+            <div>
+                Your videos
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="material-icons">
+                <span class="material-symbols-outlined">
+                    schedule
+                </span>
+            </div>
+            <div>
+                Watch later
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="fa fa-thumbs-up">
+                Liked videos
+            </div>
+        </div>
+        <div class="tile flex">
+            <div class="fa fa-angle-down">
+                Show More
+            </div>
+        </div>
+
+        <hr style="width: 270px;">
+
+    </div>
+</div>
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
