@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .avatar{
+            height: 50px;
+            width: 50px;
+        }
+
+        .avatar:hover{
+            z-index: 5;
+            transform: scale(1.1);
+        }
+
+            .overlap{
+                margin-left: -15px;
+            }
+
+        .email:hover::after{
+            content: '\2709';
+        }
+
+        .second>img:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container-fluid">
+        <div class="col-sm-6 offset-sm-3">
+            <h1 class="text-center">Login</h1>
+            <form>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label>First name</label>
+                        <input type="text" id="" class="form-control">
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Last name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="d-grid mt-3">
+                    <button class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div> -->
+   
+    <!-- <div class="bg-primary border border-warning round shadow">lolan</div> -->
+
+    <div class="container-fluid">
+        <table class="table table-dark table-bordered table-striped-rows">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Avatar</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                    
+
+                </tr>
+            </thead>
+            <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>
+                    <div class="d-flex">
+                        <img src="assets/images/papu.png" class="avatar round-circle">
+                        <img src="assets/images/innocent.png" class="avatar round-circle overlap">
+                    </div>
+                </td>
+                <td>Kattuparamban/ Unnithan</td>
+                <td>
+                    <span class="email">
+                    UnnithanKattuparamban@gmail.com
+                </span> 
+                <span class="badge round-pill bg-success">&check;</span>
+                
+                </td>
+                <td>
+                    <div class="btn-group">
+                    <button class="btn btn-warning">
+                        <span class="fa fa-eye"></span>
+                        view
+                    </button>
+                    <button class="btn btn-danger">
+                        <span class="fa fa-trash"></span>
+                        delete
+                    </button>
+                </div>
+            </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <div class="second">
+                        <img src="assets/images/nagavali.png" width="50px" height="50px">
+                    </div>
+                </td>
+                <td>Nagavali</td>
+                <td>
+                    <span class="email">
+                        nagavali@gmail.com
+                    </span>
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <button class="btn btn-warning">
+                            <span class="fa fa-eye"></span>
+                            view
+                        </button>
+                        <button class="btn btn-danger">
+                            <span class="fa fa-trash"></span>
+                            delete
+                        </button>
+                </div>
+            </td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="img">
+        
+    </div>
+</body>
+</html>
