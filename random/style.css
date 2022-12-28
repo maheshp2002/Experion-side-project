@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    display: flex;
+
+}
+
+.animals{
+
+    display: flex;
+
+    font-size: 40px;
+
+    width: 100vw;
+
+    height: 100vh;
+
+}
+
+.lion{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 430px;
+
+    margin-left: 10px;
+
+    border-radius: 30px;
+
+    position: absolute;
+
+}
+
+.tiger{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 140px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 120px;
+
+    margin-left: 70px;
+
+    position: absolute;
+
+    border-radius: 30px;
+
+}
+
+.giraffe{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 130px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 400px;
+
+    margin-left: 160px;
+
+    border-radius: 30px;
+
+    position: absolute;
+
+
+
+}
+
+
+
+.yalk{
+
+  background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 100px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 50px;
+
+    margin-left: 380px;
+
+    border-radius: 30px;  
+
+}
+
+.fox{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 120px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 250px;
+
+    margin-left:450px;
+
+    border-radius: 30px;
+
+}
+
+.leopard{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 150px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content:center;
+
+    margin-top: 500px;
+
+    margin-left:690px;
+
+    border-radius: 30px;
+
+
+
+}
+
+.rhinosauraus{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 120px;
+
+    width: 240px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 30px;
+
+    margin-left: 950px;
+
+    border-radius: 30px;
+
+}
+
+.elephant{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 120px;
+
+    width: 170px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 130px;
+
+    margin-left:1000px;
+
+    border-radius: 30px;
+
+   
+
+
+
+}
+
+
+
+
+.iguana{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 150px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 400px;
+
+    margin-left:900px;
+
+    border-radius: 30px;
+
+}
+
+.tiger2{
+
+    background-color: rgb(67, 4, 4);
+
+    color: white;
+
+    height: 100px;
+
+    width: 150px;
+
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 440px;
+
+    margin-left:1100px;
+
+    border-radius: 30px;
+}

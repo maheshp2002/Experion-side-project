@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    color: white;
+    width: 300vh;
+}
+.row{
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size:10px;
+    justify-content: space-between;
+    font-family:sans-serif;
+}
+
+.contentParent{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;  
+    font-size: 20px;
+    justify-content: start;
+    align-items: Center;
+}
+
+.contentBlue{
+    background-color: #2199e9;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
