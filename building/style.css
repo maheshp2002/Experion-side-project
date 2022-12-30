@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #666;
+}
+.TopPart{
+    width: 100%;
+    height: 70%;
+    background-color: #29f6b1;
+    position: relative;
+}
+.building1{
+    width: 20%;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+}
+.building4{
+    width: 20%;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+}
+.building2{
+    width: 20%;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+}
+.topFloor{
+    height: 50%;
+    width: 100%;
+}
+.bottomFloor{
+    height: 50%;
+    width: 100%;
+}
+.building3{
+    width: 20%;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 28%;
+}
+.BottomPart{
+    width: 100%;
+    height: 30%;
+    background-color: aqua;
+}
+.windowHolder1{
+    width: 100%;
+    height: 33%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+.window{
+    width: 70%;
+    height: 70%;
+    background-color: #29f6b1;
+    border-radius: 6px;
+}
+.windowHolder2{
+    width: 100%;
+    height: 33%;
+    display: grid;
+    place-items: center;
+}
+.largeWindow{
+    width: 90%;
+    height: 70%;
+    background-color: #29f6b1;
+    border-radius: 6px;
+}
+.windowHolder3{
+    width: 100%;
+    height: 33%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}

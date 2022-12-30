@@ -1,0 +1,6 @@
+function convertCase(value: String): String{
+    return value.toUpperCase();
+}
+
+const res1 = convertCase('Hello');
+console.log(res1.toLowerCase());

@@ -1,0 +1,5 @@
+ const value can be changed, but no re-declared
+
+ value types (not all) are stored in stack and reference type (eg:- String) in heap
+
+ A predicate is a function that return if true / filter
