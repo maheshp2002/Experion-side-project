@@ -1,0 +1,2 @@
+garbage collector clear unused memory
+works only if system is slow on memory
