@@ -5,8 +5,8 @@ let searchBy = 1;
 function changeSearchBy(number){
     searchBy = number;
     searchBy == 1
-    ? document.getElementById('name').innerText = "Name"
-    : document.getElementById('email').innerText = "email";
+    ? document.getElementById('dropdownMenuButton').innerText = "SearchBy name"
+    : document.getElementById('dropdownMenuButton').innerText = "SearchBy email";
 }
 
 fetchDefault();
@@ -44,6 +44,7 @@ function errorFunction(){
 
 // fetch data if a search is made
 function searchFunction(e) {
+    console.log(e);
     const searchKey = e.target.value;
     if (searchKey) {
         let row = ``;
