@@ -1,0 +1,30 @@
+C:\Users\mahesh.p\source\repos\projectName\projectName\bin\Debug\net6.0\projectName.exe
+C:\Users\mahesh.p\source\repos\projectName\projectName\bin\Debug\net6.0\projectName.deps.json
+C:\Users\mahesh.p\source\repos\projectName\projectName\bin\Debug\net6.0\projectName.runtimeconfig.json
+C:\Users\mahesh.p\source\repos\projectName\projectName\bin\Debug\net6.0\projectName.dll
+C:\Users\mahesh.p\source\repos\projectName\projectName\bin\Debug\net6.0\projectName.pdb
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.csproj.AssemblyReference.cache
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.AssemblyInfoInputs.cache
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.AssemblyInfo.cs
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.csproj.CoreCompileInputs.cache
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.dll
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\refint\projectName.dll
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.pdb
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\projectName.genruntimeconfig.cache
+C:\Users\mahesh.p\source\repos\projectName\projectName\obj\Debug\net6.0\ref\projectName.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.csproj.AssemblyReference.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.AssemblyInfoInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.AssemblyInfo.cs
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.csproj.CoreCompileInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\refint\projectName.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\bin\Debug\net6.0\projectName.exe
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\bin\Debug\net6.0\projectName.deps.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\bin\Debug\net6.0\projectName.runtimeconfig.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\bin\Debug\net6.0\projectName.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\bin\Debug\net6.0\projectName.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\projectName.genruntimeconfig.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\mishel sir\Specialized training\projectName\projectName\obj\Debug\net6.0\ref\projectName.dll

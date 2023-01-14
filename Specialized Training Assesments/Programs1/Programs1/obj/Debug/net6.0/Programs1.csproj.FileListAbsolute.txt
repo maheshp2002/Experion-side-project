@@ -1,0 +1,15 @@
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\bin\Debug\net6.0\Programs1.exe
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\bin\Debug\net6.0\Programs1.deps.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\bin\Debug\net6.0\Programs1.runtimeconfig.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\bin\Debug\net6.0\Programs1.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\bin\Debug\net6.0\Programs1.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.csproj.AssemblyReference.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.AssemblyInfoInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.AssemblyInfo.cs
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.csproj.CoreCompileInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\refint\Programs1.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\Programs1.genruntimeconfig.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\Programs1\Programs1\obj\Debug\net6.0\ref\Programs1.dll

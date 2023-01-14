@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick=""></button> -->
+    <label for="fare">Enter flight ticket rate</label>
+    <input type="text" id="fare">
+    <label for="flight">Select flight time</label>
+    <input type="time" id="flight">
+    <button onclick="getTime()">submit</button>
+    <script src="js/flight.js"></script>
+
+    <script>
+        document.getElementById('fare').addEventListener('keyup', (e)=>{
+            const res = new RegExp('[0-9]*').exec(e.target.value);
+            e.target.value = res[0];
+        });
+    </script>
+</body>
+</html>
