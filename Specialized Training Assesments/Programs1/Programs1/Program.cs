@@ -20,5 +20,3 @@ foreach(string g in namesArray)
     Console.WriteLine(g);
 }
 
-
-// 
