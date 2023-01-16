@@ -1,0 +1,15 @@
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\bin\Debug\net6.0\16-01-23.exe
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\bin\Debug\net6.0\16-01-23.deps.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\bin\Debug\net6.0\16-01-23.runtimeconfig.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\bin\Debug\net6.0\16-01-23.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\bin\Debug\net6.0\16-01-23.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.csproj.AssemblyReference.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.AssemblyInfoInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.AssemblyInfo.cs
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.csproj.CoreCompileInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\refint\16-01-23.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\16-01-23.genruntimeconfig.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Specialized Training Assesments\16-01-23\16-01-23\obj\Debug\net6.0\ref\16-01-23.dll
