@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\projectName.csproj": {}
+    "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\Fundamental Training Assesments\\Excersise\\C#\\Qstn1\\Qstn1\\Qstn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\projectName.csproj": {
+    "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\Fundamental Training Assesments\\Excersise\\C#\\Qstn1\\Qstn1\\Qstn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\projectName.csproj",
-        "projectName": "projectName",
-        "projectPath": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\projectName.csproj",
+        "projectUniqueName": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\Fundamental Training Assesments\\Excersise\\C#\\Qstn1\\Qstn1\\Qstn.csproj",
+        "projectName": "Qstn",
+        "projectPath": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\Fundamental Training Assesments\\Excersise\\C#\\Qstn1\\Qstn1\\Qstn.csproj",
         "packagesPath": "C:\\Users\\mahesh.p\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\obj\\",
+        "outputPath": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\Fundamental Training Assesments\\Excersise\\C#\\Qstn1\\Qstn1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahesh.p\\AppData\\Roaming\\NuGet\\NuGet.Config",

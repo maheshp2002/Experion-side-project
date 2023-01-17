@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahesh.p\\source\\repos\\projectName\\projectName\\projectName.csproj",
+      "projectUniqueName": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\projectName.csproj",
       "projectName": "projectName",
-      "projectPath": "C:\\Users\\mahesh.p\\source\\repos\\projectName\\projectName\\projectName.csproj",
+      "projectPath": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\projectName.csproj",
       "packagesPath": "C:\\Users\\mahesh.p\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahesh.p\\source\\repos\\projectName\\projectName\\obj\\",
+      "outputPath": "C:\\Users\\mahesh.p\\Documents\\GitHub\\Experion-side-project\\mishel sir\\Specialized training\\projectName\\projectName\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mahesh.p\\AppData\\Roaming\\NuGet\\NuGet.Config",
