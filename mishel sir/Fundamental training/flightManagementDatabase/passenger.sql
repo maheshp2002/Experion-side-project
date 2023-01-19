@@ -60,3 +60,4 @@ alter table `schedule` add constraint PK_Id primary key(id);
 alter table `schedule` modify column id int auto_increment;
 alter table `schedule` add constraint fK_key 
 foreign key (`flight_no`) references `flight`(`id`);
+

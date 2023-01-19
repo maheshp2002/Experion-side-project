@@ -145,26 +145,37 @@
 //data4 = data4.Remove(0, 5);
 //Console.WriteLine(data4);
 
-Console.BackgroundColor = ConsoleColor.White;
+//Console.BackgroundColor = ConsoleColor.White;
 
-String[] str = {"  ", "  " , "  " , "  " , "  " , "  " , "  " , "  " , "  " , "  " };
+//String[] str = {"  ", "  " , "  " , "  " , "  " , "  " , "  " , "  " , "  " , "  " };
 
 
-for (int i = 0;i < str.Length; i++)
+//for (int i = 0;i < str.Length; i++)
+//{
+//    Console.Write(str[i]);
+//}
+
+//Console.Write("\r");
+
+//for (int i = 0; i < str.Length; i++)
+//{
+//    Thread.Sleep(1000);
+//    //Console.Write(str);
+//    Console.BackgroundColor = ConsoleColor.Green;
+//    Console.Write($"{str[i]}");
+//}
+
+string[] arr = {"|", "/", "-", "|", "-", "\"};
+
+// new assesment
+while (true)
 {
-    Console.Write(str[i]);
+    foreach (var item in arr)
+	{
+        Thread.Sleep(1000);
+        Console.WriteLine(item);
+    }    
 }
-
-Console.Write("\r");
-
-for (int i = 0; i < str.Length; i++)
-{
-    Thread.Sleep(1000);
-    //Console.Write(str);
-    Console.BackgroundColor = ConsoleColor.Green;
-    Console.Write($"{str[i]}");
-}
-
 
 
 

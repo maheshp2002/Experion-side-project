@@ -33,4 +33,5 @@
 //Console.WriteLine("total\t" + total);
 
 // new data
-Console.WriteLine("Hello mac \r lolan");
+//Console.WriteLine("Hello mac \r lolan");
+

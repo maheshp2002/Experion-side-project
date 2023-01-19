@@ -34,18 +34,27 @@ for (int i = fareArray.Length - 1; i >= 0; i--)
 
 Console.WriteLine("\r\t<----------Search Order---------->\r\t");
 int searchInput = int.Parse(Console.ReadLine());
-int searchResult = Array.Find(fareArray, element => element == searchInput);
-
-if (searchResult != null)
+//int searchResult = Array.Find(fareArray, element => element == searchInput);
+bool isFound = false;
+int index = 0;
+for (int i = 0; i < fareArray.Length; i++)
 {
-    Console.WriteLine($"Search result found {searchResult}");
-    //{ Array.IndexOf(fareArray, searchInput)}
+    if (fareArray[i] == searchInput)
+    {
+        //{ Array.IndexOf(fareArray, searchInput)}
+        isFound= true;
+        index = i;
+    }
+}
 
-}
-else
+if (isFound)
 {
-    Console.WriteLine("Not found");
+    Console.WriteLine($"Search result found for {searchInput} at index {index}");
+} else
+{
+    Console.WriteLine("Search not Found");
 }
+
 
 Console.WriteLine("\r\t<----------Print min and max---------->\r\t");
 Console.WriteLine($"Max value is {fareArray.Max()}");

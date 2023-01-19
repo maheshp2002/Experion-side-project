@@ -1,0 +1,15 @@
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\bin\Debug\net6.0\Qstn.exe
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\bin\Debug\net6.0\Qstn.deps.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\bin\Debug\net6.0\Qstn.runtimeconfig.json
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\bin\Debug\net6.0\Qstn.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\bin\Debug\net6.0\Qstn.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.csproj.AssemblyReference.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.AssemblyInfoInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.AssemblyInfo.cs
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.csproj.CoreCompileInputs.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\refint\Qstn.dll
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.pdb
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\Qstn.genruntimeconfig.cache
+C:\Users\mahesh.p\Documents\GitHub\Experion-side-project\Fundamental Training Assesments\Excersise\C#\Qstn1\Qstn1\obj\Debug\net6.0\ref\Qstn.dll
