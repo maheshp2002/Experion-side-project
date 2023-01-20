@@ -170,13 +170,107 @@
 //Console.WriteLine(ts.TotalSeconds);
 
 
-var Stu = new Student()
-{
-    Name = "Mac",
-    Email = "mac@mac.com",
-    Dob = DateOnly.Parse(Console.ReadLine())
-};
+// 20-01-2023
 
-Stu.studentDetails();
+//var Stu = new Student()
+//{
+//    Name = "Mac",
+//    Email = "mac@gmail.com",
+//    Mark1 = 20,
+//    Mark2 = 40,
+//    Dob = DateOnly.Parse(Console.ReadLine()),
+//    Age= 10,
+//};
+
+//Console.WriteLine(Stu.StudentDetails);
+//Console.WriteLine(Stu);
+
+//var lst = new List<string>();
+//lst.Add("0");
+//lst.Add("1");
+//lst.Add("2");
+//lst.Add("3");
+
+
+//for (int i = 0; i < 3; i++)
+//{
+//    Console.WriteLine("Enter name:");
+//    lst.Add(Console.ReadLine());
+//}
+//Console.WriteLine(lst.Count);
+
+//lst.Clear();
+
+//lst.Remove(Console.ReadLine());
+//lst.RemoveAt(1);
+
+//var dict = new Dictionary<string, string>();
+//dict.Add("macan@mac.com", "Macan");
+//dict.Add("lolan@lolan.com", "Lolan");
+//dict["viji@gmail.com"] = "Viji";
+
+//Console.WriteLine(dict.Count);
+//Console.WriteLine(dict["macan@mac.com"]);
+
+//foreach (var item in dict)
+//{
+//    Console.WriteLine(item.Key + ":" + item.Value);
+//}
+
+////Replace data
+//dict["viji@gmail.com"] = "Vijitha";
+
+
+//foreach (var item in dict)
+//{
+//    Console.WriteLine(item.Key + ":" + item.Value);
+//}
+
+var employees = new List<Dictionary<string, string>>();
+
+while (true)
+{
+    Console.WriteLine(" 1. Add Employee");
+    Console.WriteLine(" 2. View Employee");
+
+    var choice = Console.ReadLine();
+
+    switch (choice)
+    {
+        case "1":
+            AddEmployee();
+            break;
+        case "2":
+            DisplayEmployee();
+            break;
+        default:
+            Console.WriteLine("Enter employee");
+            break;
+    }
+}
+
+void AddEmployee()
+{
+    var dict = new Dictionary<string, string>();
+
+    Console.WriteLine("Enter the name: ");
+    dict["Name"] = Console.ReadLine();
+
+    Console.WriteLine("Enter the age: ");
+    dict["Age"] = Console.ReadLine();
+
+    employees.Add(dict);
+}
+
+void DisplayEmployee()
+{
+    foreach (var employee in employees)
+    {
+        Console.WriteLine($"*******{employee["Name"]}*******");
+        Console.WriteLine($"Age: {employee["Age"]}");
+        Console.WriteLine(new string('-', 50));
+    }
+}
+
 
 
