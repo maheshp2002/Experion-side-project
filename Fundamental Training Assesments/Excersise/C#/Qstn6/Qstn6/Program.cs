@@ -1,81 +1,25 @@
-﻿//string[] destination = new string[10];
-//string[] distance = new string[10];
-//int[] fare = new int[10];
+﻿var FlightRoute = new List<Dictionary<string, string>>();
 
-//for (int i = 0; i < destination.Length; i++)
-//{
-//    Console.WriteLine($"Enter the destination {i}");
-//    destination[i] =  Console.ReadLine();
-//}
-//for (int j = 0; j < distance.Length; j++)
-//{
-//    Console.WriteLine($"Enter the distance {j}");
-//    distance[j] = Console.ReadLine();
-//}
-
-//for (int k = 0; k < fare.Length; k++)
-//{
-//    Console.WriteLine($"Enter the fare {k}");
-//    fare[k] = int.Parse(Console.ReadLine());
-//}
-
-//Console.WriteLine("Enter the source");
-//string sourceInput = Console.ReadLine();
-
-//Console.WriteLine("Enter the destination");
-//string destinationInput = Console.ReadLine();
-
-//Dictionary<int, string> flightDistance = new Dictionary<int, string>();
-
-//for (int i = 0; i < 3; i++)
-//{
-//    Console.WriteLine($"Enter the {i++} details");
-
-//    Console.WriteLine("Enter the source");
-//    string source = Console.ReadLine();
-
-//    Console.WriteLine("Enter the destination");
-//    string destination = Console.ReadLine();
-
-//    Console.WriteLine("Enter the distance");
-//    int distance = int.Parse(Console.ReadLine());
-
-//    Console.WriteLine("Enter the fare");
-//    int fare = int.Parse(Console.ReadLine());
-
-//    flightDistance.Add(i++, $"{source}, {destination}, {distance}, {fare}");
-
-//}
-//Console.WriteLine(flightDistance[1]);
-
-//string[] arr = flightDistance[1].Split(',');
-
-//for (int j = 0; j < arr.Length; j++)
-//{
-//    if (arr[j] < '0')
-//    {
-
-//    }
-//}
-
-//Console.WriteLine(string.Join(" -> ", flightDistance));
-
-var FlightRoute = new List<Dictionary<string, string>>();
 
 while (true)
 {
     Console.WriteLine("1. Add flight details");
-    Console.WriteLine("1. Sort by shortest flight distance");
+    Console.WriteLine("2. Display details");
+    Console.WriteLine("3. Sort by flight");
+
 
     string number = Console.ReadLine();
 
     switch(number)
     {
         case "1":
-            flightInput();
+            FlightInput();
             break;
         case "2":
-
+            DisplayDetails();
+            break;
+        case "3":
+            ShortestDistance();
             break;
         default:
             Console.WriteLine("Wrong input");
@@ -83,7 +27,7 @@ while (true)
     }
 }
 
-void flightInput()
+void FlightInput()
 {
     var Dict = new Dictionary<string, string>();
 
@@ -101,6 +45,82 @@ void flightInput()
 
     FlightRoute.Add(Dict);
 }
+
+void DisplayDetails()
+{
+    foreach (var flight in FlightRoute)
+    {
+        Console.WriteLine($"*******{flight["source"]}*******");
+        Console.WriteLine($"Destination: {flight["destination"]}");
+        Console.WriteLine($"Distance: {flight["distance"]}");
+        Console.WriteLine($"Fare: {flight["fare"]}");
+        Console.WriteLine(new string('-', 50));
+    }
+}
+
+void ShortestDistance()
+{
+    int[] arr = new int[FlightRoute.Count];
+    int[] arr2 = new int[FlightRoute.Count];
+
+    for (int i = 0; i < FlightRoute.Count; i++)
+    {
+        arr[i] = int.Parse(FlightRoute[i]["distance"]);
+        arr2[i] = int.Parse(FlightRoute[i]["fare"]);
+    }
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        for (int j = i + 1; j < arr.Length; j++)
+        {
+            if (arr[i] < arr[j])
+            {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+
+    for (int i = 0; i < arr2.Length; i++)
+    {
+        for (int j = i + 1; j < arr2.Length; j++)
+        {
+            if (arr2[i] < arr2[j])
+            {
+                int temp = arr2[i];
+                arr2[i] = arr2[j];
+                arr2[j] = temp;
+            }
+        }
+    }
+
+    Console.WriteLine(string.Join(",", arr));
+    Console.WriteLine(string.Join(",", arr2));
+
+    Console.WriteLine($"Shortest distance is {arr.Min()}");
+    Console.WriteLine($"Largest distance is {arr.Max()}");
+
+    Console.WriteLine(new string('-', 50));
+
+    Console.WriteLine($"Lowest fare is {arr2.Min()}");
+    Console.WriteLine($"Highest fare is {arr2.Max()}");
+
+    Console.WriteLine(new string('-', 50));
+
+    Console.WriteLine($"Lowest fare {arr2.Min()}, and shortest distance {arr.Min()}");
+    Console.WriteLine($"Highest fare {arr2.Max()}, and highest distance {arr.Max()}");
+
+    Console.WriteLine(new string('-', 50));
+
+    Console.WriteLine($"Lowest fare {arr2.Min()}, and highest distance {arr.Max()}");
+    Console.WriteLine($"Highest fare {arr2.Max()}, and shortest distance {arr.Min()}");
+}
+
+
+
+
+
 
 
 
