@@ -9,6 +9,9 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Qstn10.cs" />
+    <Compile Remove="Qstn8.cs" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using projectName;
+using System.Runtime.CompilerServices;
 
 //string BeepSound(int time, string email = "default", int number = default)
 //{
@@ -226,51 +227,129 @@
 //    Console.WriteLine(item.Key + ":" + item.Value);
 //}
 
-var employees = new List<Dictionary<string, string>>();
+//var employees = new List<Dictionary<string, string>>();
 
-while (true)
+//while (true)
+//{
+//    Console.WriteLine(" 1. Add Employee");
+//    Console.WriteLine(" 2. View Employee");
+
+//    var choice = Console.ReadLine();
+
+//    switch (choice)
+//    {
+//        case "1":
+//            AddEmployee();
+//            break;
+//        case "2":
+//            DisplayEmployee();
+//            break;
+//        default:
+//            Console.WriteLine("Enter employee");
+//            break;
+//    }
+//}
+
+//void AddEmployee()
+//{
+//    var dict = new Dictionary<string, string>();
+
+//    Console.WriteLine("Enter the name: ");
+//    dict["Name"] = Console.ReadLine();
+
+//    Console.WriteLine("Enter the age: ");
+//    dict["Age"] = Console.ReadLine();
+
+//    employees.Add(dict);
+//}
+
+//void DisplayEmployee()
+//{
+//    foreach (var employee in employees)
+//    {
+//        Console.WriteLine($"*******{employee["Name"]}*******");
+//        Console.WriteLine($"Age: {employee["Age"]}");
+//        Console.WriteLine(new string('-', 50));
+//    }
+//}
+
+//void Greet() => Console.WriteLine("Hello World");
+//int Add(int x, int y) => x + y;
+
+//Console.WriteLine(Add(1, 2));
+
+//Greet();
+
+//Null coalescing
+//string? data = "This is a text";
+//var res = data ?? "Default data";
+//Console.WriteLine(res);
+//Console.WriteLine(data ?? "Default data");
+
+//string? data = null;
+//data ??= "Default data";
+//Console.WriteLine(data);
+
+//Days Day = Days.Monday;
+////or use "var Day = Days.Monday;".
+//Console.WriteLine(Day);
+
+//int d = (int)Day;
+//Console.WriteLine(d);
+
+//Days day1 = 0;
+//Days day2 = (Days)1;
+
+//Console.WriteLine(day1);
+
+
+//enum Days
+//{
+//    Monday,
+//    Tuesday, 
+//    Wednesday,
+//}
+//string ConvertCasing(string text, Options option)
+//{
+//    switch (option)
+//    {
+//        case Options.UpperCase:
+//            return text.ToUpper();
+//        case Options.LowerCase:
+//            return text.ToLower();
+//        default:
+//            return text;
+//    }
+//}
+
+//Console.WriteLine(ConvertCasing("Hello", Options.UpperCase)); 
+//enum Options
+//{
+//    UpperCase,
+//    LowerCase
+//}
+
+
+////Throw error till you uncomment balance.
+//var students = new ArrayClass[5];
+//students[0] = new ArrayClass() {Name = "lol" };
+//students[1] = new ArrayClass() { Name = "lol" };
+////students[2] = new ArrayClass() { Name = "lol" };
+////students[3] = new ArrayClass() { Name = "lol" };
+////students[4] = new ArrayClass() { Name = "lol" };
+
+//foreach (var item in students)
+//{
+//    Console.WriteLine(item.Name);
+//}
+
+Console.WriteLine(ArrayClass.ConstName);
+
+var obj = new ArrayClass("lolan");
+Console.WriteLine(obj.Name);
+
+var lst = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 12 };
+if ()
 {
-    Console.WriteLine(" 1. Add Employee");
-    Console.WriteLine(" 2. View Employee");
 
-    var choice = Console.ReadLine();
-
-    switch (choice)
-    {
-        case "1":
-            AddEmployee();
-            break;
-        case "2":
-            DisplayEmployee();
-            break;
-        default:
-            Console.WriteLine("Enter employee");
-            break;
-    }
 }
-
-void AddEmployee()
-{
-    var dict = new Dictionary<string, string>();
-
-    Console.WriteLine("Enter the name: ");
-    dict["Name"] = Console.ReadLine();
-
-    Console.WriteLine("Enter the age: ");
-    dict["Age"] = Console.ReadLine();
-
-    employees.Add(dict);
-}
-
-void DisplayEmployee()
-{
-    foreach (var employee in employees)
-    {
-        Console.WriteLine($"*******{employee["Name"]}*******");
-        Console.WriteLine($"Age: {employee["Age"]}");
-        Console.WriteLine(new string('-', 50));
-    }
-}
-
-
-

@@ -1,12 +1,10 @@
 ﻿var FlightRoute = new List<Dictionary<string, string>>();
 
-
 while (true)
 {
     Console.WriteLine("1. Add flight details");
     Console.WriteLine("2. Display details");
     Console.WriteLine("3. Sort by flight");
-
 
     string number = Console.ReadLine();
 
