@@ -8,10 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AddClass.cs" />
     <Compile Remove="Class1.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="Qsrn12.cs" />
     <Compile Remove="Qstn10.cs" />
+    <Compile Remove="Qstn11.cs" />
+    <Compile Remove="Qstn13.cs" />
+    <Compile Remove="Qstn14.cs" />
+    <Compile Remove="Qstn15.cs" />
+    <Compile Remove="Qstn6.cs" />
     <Compile Remove="Qstn8.cs" />
+    <Compile Remove="SideExcersise.cs" />
   </ItemGroup>
 
 </Project>
