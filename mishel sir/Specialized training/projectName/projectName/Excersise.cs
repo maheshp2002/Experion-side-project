@@ -276,6 +276,7 @@ using System.Runtime.CompilerServices;
 //void Greet() => Console.WriteLine("Hello World");
 //int Add(int x, int y) => x + y;
 
+// this is against rule
 //Console.WriteLine(Add(1, 2));
 
 //Greet();
@@ -343,13 +344,90 @@ using System.Runtime.CompilerServices;
 //    Console.WriteLine(item.Name);
 //}
 
-Console.WriteLine(ArrayClass.ConstName);
+//Console.WriteLine(ArrayClass.ConstName);
 
-var obj = new ArrayClass("lolan");
-Console.WriteLine(obj.Name);
+//var obj = new ArrayClass("lolan");
+//Console.WriteLine(obj.Name);
 
-var lst = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 12 };
-if ()
-{
+//var lst = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 12 };
+//if ()
+//{
 
-}
+//}
+
+
+//void SayWakeUp() => Console.WriteLine("Wake Up!");
+
+//var alarm1 = new Alarm(15, SayWakeUp);
+
+//MyDelegate caller = SayWakeUp;
+//caller();
+
+//delegate void MyDelegate();
+
+//Action 
+
+//void Add(string x, string y, string z)
+//{
+//    Console.Write(x + y + z);
+//}
+
+//Action<string, string, string> caller = Add;
+//caller("vi", "ji", "tha");
+
+//string Add2(string x, string y) => x + y;
+
+//Func<string, string, string> caller2 = Add2;
+//Console.Write(caller2(" pal", "kuppi"));
+
+//var lst = new List<string> { "vi", "ji", "tha" };
+
+//string? res = lst.Find(n => n == "vi" || n == "Vi");
+//Console.Write(res);
+
+//int[] data = { 4, 5, 6, 7 };
+////var res1 = data.Any(x => x % 2 == 0);
+////Console.WriteLine(res1);
+//Console.WriteLine(data.Any(x => x % 2 == 0) ? "yes" : "no");
+//Console.WriteLine(data.All(y => y % 2 == 0) ? "yes" : "no");
+
+int[] data = { 3, 4, 5, 6, 7, 8, 9, 11, 4 };
+var count = data.Count(m => m <= 5);
+Console.WriteLine(count);
+var res = data.Take(5);
+var res2 = data.TakeLast(5);
+
+var res3 = data.Skip(5);
+var res4 = data.SkipLast(5);
+
+var res5 = data.Skip(2).Take(2);
+
+var res6 = data
+    .Skip(2)
+    .Where(m => m % 2 == 0);
+
+var res7 = data.First(m => m > 5);
+var res8 = data.FirstOrDefault(m => m > 50);
+
+int[]? data1 = { 3, 4, 5, 6, 7, 8, 9, 11, 4 };
+var res9 = data.FirstOrDefault(m => m > 50);
+var res10 = data.LastOrDefault(m => m > 50);
+var res11 = res.OrderBy(m => m);
+var res12 = res.Reverse();
+var res13 = res.TakeWhile(m => m < 10);
+
+var res14 = from i in data where i > 3 select i;
+
+Console.WriteLine(string.Join(",", res));
+Console.WriteLine(string.Join(",", res2));
+Console.WriteLine(string.Join(",", res3));
+Console.WriteLine(string.Join(",", res4));
+Console.WriteLine(string.Join(",", res5));
+Console.WriteLine(string.Join(",", res6));
+Console.WriteLine(string.Join(",", res7));
+Console.WriteLine(string.Join(",", res8));
+Console.WriteLine(string.Join(",", res9));
+Console.WriteLine(string.Join(",", res10));
+Console.WriteLine(string.Join(",", res11));
+Console.WriteLine(string.Join(",", res12));
+Console.WriteLine(string.Join(",", res13));

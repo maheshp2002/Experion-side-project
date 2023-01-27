@@ -8,8 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ArrayClass.cs" />
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Person.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="Student.cs" />
+    <Compile Remove="Teacher.cs" />
   </ItemGroup>
 
 </Project>
