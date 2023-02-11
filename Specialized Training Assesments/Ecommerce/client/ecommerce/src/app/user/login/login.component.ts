@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+    selector: 'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
     model = {
@@ -11,12 +11,11 @@ export class LoginComponent {
         password: ''
     };
 
-
-    onSubmit(form:any) {
+    onSubmit(form: any) {
         console.log(form);
     }
 
-    showData(email:any){
+    showData(email: any) {
         console.log(email);
     }
 }

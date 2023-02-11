@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9LrveB+7GqfmoeEsT7zu73U6XsXxNC6w4aAeo7H8m2o=",
+  "Source": "CartSharp.WebApp",
+  "BasePath": "_content/CartSharp.WebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

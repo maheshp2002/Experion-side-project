@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { UserLayoutComponent } from './user-layout/user-layout.component';
 import { FormsModule } from '@angular/forms';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     SignupComponent,
     UserLayoutComponent,
+    NotFoundComponent,
   ],
   imports: [
     CommonModule,
